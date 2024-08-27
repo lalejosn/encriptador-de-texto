@@ -74,7 +74,15 @@
     font-size: 1.5rem;
     font-weight: 500;
     font-family: var(--fuente-nerko);
-    color: var(--color-quinto)
+    color: var(--color-quinto);
+    display: flex;
+    align-items: center;
+}
+
+.encriptador__icono {
+    width: 24px; /* Ajusta el tamaño del ícono */
+    height: 24px;
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
 }
 
 .encriptador__botones {
@@ -155,6 +163,7 @@
     align-content: center;
     text-align: center;
     top: 25%;
+    pointer-events: none;
 }
 
 .overlay.hidden {

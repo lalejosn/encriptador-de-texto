@@ -14,7 +14,6 @@ function encriptarTexto() {
 
     let textoEncriptado = texto;
 
-
     textoEncriptado = textoEncriptado.replace(/e/g, "enter");
     textoEncriptado = textoEncriptado.replace(/i/g, "imes");
     textoEncriptado = textoEncriptado.replace(/a/g, "ai");
@@ -22,7 +21,13 @@ function encriptarTexto() {
     textoEncriptado = textoEncriptado.replace(/u/g, "ufat");
 
     document.getElementById("textoEncriptado").value = textoEncriptado;
+
+    const overlay = document.getElementById('overlay');
+    if (textoEncriptado.trim() !== "") {
+        overlay.classList.add('hidden');
+    }
 }
+
 
 function desencriptarTexto() {
     const texto = document.getElementById("textoEncriptado").value;
