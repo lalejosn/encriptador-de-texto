@@ -91,7 +91,7 @@
 .encriptador__boton {
     height: 100%;
     width: 49%;
-    border-radius: 1rem;
+    border-radius: 16px;
     background-color: var(--color-quinto);
     color: var(--color-primario);
     font-size: 1.5rem;
@@ -107,7 +107,7 @@
 .encriptador__boton__reverse {
     height: 100%;
     width: 49%;
-    border-radius: 1rem;
+    border-radius: 16px;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-quinto);
@@ -134,11 +134,11 @@
     margin-right: 5vh;
     margin-bottom: 10vh;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 32px;
     padding: 5%;
     border: 0px;
     resize: none;
-    box-shadow: .3rem .2rem .2rem rgb(107, 107, 107);
+    box-shadow: 6px 4px 4px rgb(107, 107, 107);
     font-size: 1.5rem;
     position: relative;
     font-family: var(--fuente-nerko);
